@@ -17,3 +17,15 @@ const forecast = (latitude, longitude, callback) => {
 }
 
 module.exports = forecast;
+
+
+/*
+// Note: For running this application type in command --> 
+
+sumit.yadav@Sumits-MacBook-Pro weather-app % node app.js Akurdi Pune
+
+                OUTPUT
+Akurdi, Pimpri-Chinchwad, MH, India
+Clear. It is currently 25 degress out.
+
+*/
