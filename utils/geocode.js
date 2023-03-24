@@ -1,5 +1,5 @@
 const request = require('postman-request');
-const env = require('../private_constants');
+const env = require('./enviroment');
 
 const geocode = (address, callback) => {
     const url = `http://api.positionstack.com/v1/forward?access_key=${env.POSITIONSTACK_ACCESS_KEY}&query=${encodeURIComponent(address)}&limit=1`  // Max limit is 80
