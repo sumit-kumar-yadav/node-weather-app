@@ -1,0 +1,14 @@
+div{
+    text-align: center;
+}
+
+input{
+    width: 300px;
+    height: 25px;
+}
+
+button{
+    height: 30px;
+    background-color: orange;
+    color: white;
+}
